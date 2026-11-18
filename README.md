@@ -31,15 +31,8 @@ Sistema web desenvolvido para auxiliar usuários no acompanhamento de indicadore
 
 ## Fluxo da Aplicação
 
-```mermaid
-flowchart TD
+<img width="1281" height="649" alt="image" src="https://github.com/user-attachments/assets/f949303a-cd83-4ea6-b8a7-23c2218ed903" />
 
-    A[Início] --> B[Criação de Perfil]
-    B --> C[Processamento dos Dados]
-    C --> D[Cálculo do IMC]
-    D --> E[Painel do Usuário]
-    E --> F[Recomendações]
-```
 
 ## Melhorias Futuras
 
