@@ -58,7 +58,7 @@ $mensagemHTML = htmlspecialchars($mensagem, ENT_QUOTES, "UTF-8");
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FitIA - Meu painel</title>
+<title>FitCal - Meu painel</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
@@ -179,7 +179,7 @@ main { width: 86%; max-width: 1200px; margin: 40px auto; }
 
 <body>
 <header>
-    <div class="logo">FitIA</div>
+    <div class="logo">FitCal</div>
     <div class="perfil">
         <div class="avatar"><?= htmlspecialchars($primeiraLetra, ENT_QUOTES, "UTF-8") ?></div>
         <strong><?= $nomeHTML ?></strong>
