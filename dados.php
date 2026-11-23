@@ -1,5 +1,5 @@
 <?php
-// Endpoint simples para calcular IMC a partir de um formulário POST.
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['calcular'])) {
     http_response_code(400);
     exit('Envie peso e altura pelo formulário de cálculo.');
@@ -28,7 +28,7 @@ if ($imc < 18.5) {
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Resultado do IMC - FitIA</title></head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Resultado do IMC - FitCal</title></head>
 <body>
   <main>
     <h1>Resultado do IMC</h1>
