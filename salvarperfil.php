@@ -147,7 +147,7 @@ Objetivo: <?php echo limpar($objetivoTexto); ?>
 <li><?php echo limpar($alimento); ?></li>
 <?php } ?>
 </ul>
-<p class="aviso">Estas são sugestões gerais para fins informativos. Não constituem prescrição de treino ou dieta. Procure profissionais de educação física e nutrição para orientações individuais.</p>
+<p class="aviso">Estas são sugestões gerais para fins informativos. Não constituem prescrição de treino ou dieta. Procure profissionais de educação física e nutrição para orientações individuais. Fique atento as alimentações indicadas caso possua alguma alergia!</p>
 </section>
 
 <a href="criacao de perfil.html" class="botao">Refazer perfil</a>
